@@ -4,7 +4,7 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/ir/hri/resources/Spring-Customer.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/ir/hri/resources/beans.xml</file>
         </fileset>
       </configuration>
     </facet>

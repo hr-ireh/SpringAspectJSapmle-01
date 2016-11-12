@@ -9,8 +9,8 @@ import ir.hri.util.SpringUtil;
 public class App {
     public static void main(String[] args) {
         CustomerBusiness customer = (CustomerBusiness) SpringUtil.getApplicationContext().getBean("CustomerBusiness");
-        customer.addCustomer();
-        customer.addCustomerReturnValue();
+       customer.addCustomer();
+      /*   customer.addCustomerReturnValue();
 
         try {
             customer.addCustomerThrowException();
@@ -18,6 +18,6 @@ public class App {
             // TODO: 11/9/2016  ;
         }
 
-        customer.addCustomerAround("Hamid");
+        customer.addCustomerAround("Hamid");*/
     }
 }
